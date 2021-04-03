@@ -47,7 +47,6 @@ class ViewController: UIViewController {
     
     @IBAction func AddMark(_ sender: Any) {
         animatedIn()
-        
     }
     
     @IBAction func ConfirmMark(_ sender: Any) {
@@ -63,7 +62,6 @@ class ViewController: UIViewController {
                     NewAnnotation.subtitle = AnnotationSubtitle.text
                 }
                 MapView.addAnnotation(NewAnnotation)
-                
             }
         }
     }
@@ -71,18 +69,6 @@ class ViewController: UIViewController {
         Convert()
     }
     
-    func SeeContent() {
-        let NewAnnotation = MKPointAnnotation()
-        NewAnnotation.title = "大笨鐘"
-        NewAnnotation.coordinate = CLLocationCoordinate2D(latitude: 51.500936, longitude: -0.124636)
-        NewAnnotation.subtitle = "很笨的時鐘"
-        MapView.addAnnotation(NewAnnotation)
-        let londonEyeAnnotation = MKPointAnnotation()
-        londonEyeAnnotation.title = "倫敦眼"
-        londonEyeAnnotation.coordinate = CLLocationCoordinate2D(latitude: 51.503544, longitude: -0.119489)
-        londonEyeAnnotation.subtitle = "倫敦的眼精"
-        MapView.addAnnotation(londonEyeAnnotation)
-    }
     func Convert() {
         if let mylong = Double(longitude.text!) {
             if let mylat = Double(latitude.text!) {
@@ -100,7 +86,6 @@ class ViewController: UIViewController {
                 latsecStr = String(format: "%.3f", latsec)
                 
                 InfoTextView.text = "緯度：\(latdegree) 緯分：\(latminStr)\n經度：\(longdegree) 經分：\(longminStr)\n\n\n緯度：\(latdegree)緯分：\(latminStr) 緯秒：\(latsecStr)\n經度：\(longdegree) 經分：\(longminStr) 經秒：\(longsecStr) "
-            
             }
         }
     }
