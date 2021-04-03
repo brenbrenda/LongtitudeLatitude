@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C2464C2F2616FDFC00D14F04 /* LongtitudeLatitude.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LongtitudeLatitude.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2464C2F2616FDFC00D14F04 /* LongitudeLatitude.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LongitudeLatitude.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2464C322616FDFC00D14F04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2464C342616FDFC00D14F04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C2464C362616FDFC00D14F04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		C2464C302616FDFC00D14F04 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C2464C2F2616FDFC00D14F04 /* LongtitudeLatitude.app */,
+				C2464C2F2616FDFC00D14F04 /* LongitudeLatitude.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C2464C2E2616FDFC00D14F04 /* LongtitudeLatitude */ = {
+		C2464C2E2616FDFC00D14F04 /* LongitudeLatitude */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C2464C432616FDFF00D14F04 /* Build configuration list for PBXNativeTarget "LongtitudeLatitude" */;
+			buildConfigurationList = C2464C432616FDFF00D14F04 /* Build configuration list for PBXNativeTarget "LongitudeLatitude" */;
 			buildPhases = (
 				C2464C2B2616FDFC00D14F04 /* Sources */,
 				C2464C2C2616FDFC00D14F04 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = LongtitudeLatitude;
+			name = LongitudeLatitude;
 			productName = LongtitudeLatitude;
-			productReference = C2464C2F2616FDFC00D14F04 /* LongtitudeLatitude.app */;
+			productReference = C2464C2F2616FDFC00D14F04 /* LongitudeLatitude.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C2464C2A2616FDFC00D14F04 /* Build configuration list for PBXProject "LongtitudeLatitude" */;
+			buildConfigurationList = C2464C2A2616FDFC00D14F04 /* Build configuration list for PBXProject "LongitudeLatitude" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C2464C2E2616FDFC00D14F04 /* LongtitudeLatitude */,
+				C2464C2E2616FDFC00D14F04 /* LongitudeLatitude */,
 			);
 		};
 /* End PBXProject section */
@@ -322,7 +322,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C2464C2A2616FDFC00D14F04 /* Build configuration list for PBXProject "LongtitudeLatitude" */ = {
+		C2464C2A2616FDFC00D14F04 /* Build configuration list for PBXProject "LongitudeLatitude" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C2464C412616FDFF00D14F04 /* Debug */,
@@ -331,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C2464C432616FDFF00D14F04 /* Build configuration list for PBXNativeTarget "LongtitudeLatitude" */ = {
+		C2464C432616FDFF00D14F04 /* Build configuration list for PBXNativeTarget "LongitudeLatitude" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C2464C442616FDFF00D14F04 /* Debug */,
